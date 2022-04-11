@@ -37,6 +37,7 @@ btn.addEventListener("click", function (e) {
 });
 
 buttons.forEach((button) => {
+    
   button.addEventListener("click", () => {
     alert(button.id);
   });
