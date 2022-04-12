@@ -24,9 +24,6 @@ div_3.appendChild(h1);
 div_3.appendChild(p_div);
 container.appendChild(div_3);
 
-btn.addEventListener("click", () => {
-  alert("Hello World");
-});
 
 function alertFunction() {
   alert("I did it.");
